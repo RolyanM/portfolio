@@ -1,0 +1,82 @@
+@import "../../Variables/Variables.scss";
+
+.aboutMe{
+  background-color: $prmColour;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	h2{
+		margin: 10px;
+		font-size: 80px;
+	}
+}
+
+h3{
+	font-size: 60px;
+}
+
+.profile-flex {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto;
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	grid-gap: 20px;
+  background-color: azure;
+  border-radius: 50px;
+
+
+	.chart--horiz{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-decoration: none;
+
+		img{
+		width: 120px;
+		margin: 10px 30px;
+		height: 120px;
+		}
+		ul{
+			text-decoration: none;
+		}
+		span{
+			text-decoration: none;
+		}
+
+		li{
+			text-decoration: none;
+		}
+	}
+}
+
+article{
+	font-size: 40px;
+}
+
+@media (max-width: 768px) {
+img{
+	width: 20px;
+	margin: 10px 30px;
+	height: 20px;
+}
+
+.aboutMe {
+	width: 100%;
+}
+
+.profile{
+width: 100%;
+}
+.skills{
+	width: 100%;
+}
+article{
+	font-size: 10px;
+	width: 100%;
+}
+
+}
