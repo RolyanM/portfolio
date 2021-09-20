@@ -11,7 +11,7 @@ export const javascriptPortfolio = [
     title: "Brew Dog API",
     img:
     "https://i.ibb.co/GWRVDMk/beerapi.jpg",
-    URL: "https://rolyanm.github.io/beer-shop/,",
+    URL: "https://test-8f6e6.firebaseapp.com/",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export const reactPortfolio = [
     title: "Brew Dog API",
     img:
     "https://i.ibb.co/GWRVDMk/beerapi.jpg",
-    URL: "https://rolyanm.github.io",
+    URL: "https://test-8f6e6.firebaseapp.com/",
   },
    {
     id: 2,
